@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lab 3 - Coffee Order Form</title>
+    </head>
+<body>
+    <h1>Coffee Order Form</h1>
+
+    <p>This is used to collect a customer's coffee order with contact information and drink preferences stored.</p>
+    <form action="https://www.w3schools.com/action_page.php" method="get">
+
+        <label for="customerName">Customer Name:</label><br>
+        <input type="text" id="customerName" name="customerName"><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="coffeeType">Coffee Type:</label><br>
+        <select id="coffeeType" name="coffeeType">
+            <option value="latte">Latte</option>
+            <option value="cappuccino">Cappuccino</option>
+            <option value="americano">Americano</option>
+            <option value="espresso">Espresso</option>
+        </select><br><br>
+
+        <p>Size:</p>
+        
+        <input type="radio" id="small" name="size" value="small">
+        <label for="small">Small</label><br>
+
+        <input type="radio" id="medium" name="size" value="medium">
+        <label for="medium">Medium</label><br>
+
+        <input type="radio" id="large" name="size" value="large">
+        <label for="large">Large</label><br>
+
+        <p>Extras:</p>
+
+        <input type="checkbox" id="whippedCream" name="extras" value="whippedCream">
+        <label for="whippedCream">Whipped Cream</label><br>
+
+        <input type="checkbox" id="extraShot" name="extras" value="extraShot">
+        <label for="extraShot">Extra Shot</label><br>
+
+        <input type="checkbox" id="almondMilk" name="extras" value="almondMilk">
+        <label for="almondMilk">Almond Milk</label><br>
+
+        <label for="instructions">Special Instructions:</label><br>
+        <textarea id="instructions" name="instructions" rows="4" cols="60"></textarea><br><br>
+
+        <button type="submit">Submit Order</button>
+    </form>
+</body>
+</html>
