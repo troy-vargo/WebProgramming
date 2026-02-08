@@ -1,0 +1,28 @@
+body {
+    background-color: beige;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: darkgreen;
+    text-align: center;
+}
+p {
+    color:blue;
+    padding: 10px;
+}
+li {
+    color: darkblue
+}
+a{
+    color: blue;
+}
+
+a:hover {
+    text-decoration: none;
+}
+.styled-box {
+    border: 2px solid black;
+    background-color: lightgray;
+    padding: 15px;
+    text-align: center;
+}
